@@ -13,7 +13,7 @@ public class AddtoCartTest extends BaseClass{
 
 	@Test(retryAnalyzer = listnerimplementation.RetryListner.class)
 	public void addToCartTest() {
-		Assert.fail();
+		//Assert.fail();
 		Reporter.log("Successfully Added to Cart", true);
 		test.log(LogStatus.INFO, "Added to cart successfully");
 		

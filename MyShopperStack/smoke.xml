@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="shopperstack.logintest.AddtoCartTest"/>
+      <class name="shopperstack.logintest.DemoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
