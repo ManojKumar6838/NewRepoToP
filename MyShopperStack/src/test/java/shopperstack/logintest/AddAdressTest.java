@@ -13,7 +13,7 @@ public class AddAdressTest extends BaseClass {
 
 	@Test(retryAnalyzer = listnerimplementation.RetryListner.class)
 	public void addAddress() {
-		//Assert.fail();
+		Assert.fail();
 		Reporter.log("Address added Succssfully", true);
 		test.log(LogStatus.INFO, "Added address Successfully");
 	}
